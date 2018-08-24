@@ -1,0 +1,13 @@
+# Project dependencies
+.cache
+node_modules
+yarn-error.log
+
+# Build directory
+/public
+.DS_Store
+
+# aws
+.amplifyrc
+amplify
+src/aws-exports

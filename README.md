@@ -3,16 +3,16 @@ Gatsby starter with user authentication using Amazon Cognito.
 
 ## Getting Started
 
-1. Download the project
+1. Create the project
 
 ```sh
-git clone https://github.com/dabit3/gatsby-auth-starter-aws.git
+gatsby new my-aws-project https://github.com/dabit3/gatsby-auth-starter-aws-amplify
 ```
 
 2. Change into the new directory
 
 ```sh
-cd gatsby-auth-starter
+cd my-aws-project
 ```
 
 3. Change into the new directory

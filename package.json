@@ -2,7 +2,7 @@
   "name": "gatsby-auth-starter-aws",
   "description": "Gatsby authentication starter for AWS",
   "version": "1.0.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Nader Dabit <dabit3.@gmail.com>",
   "dependencies": {
     "aws-amplify": "^1.0.5",
     "aws-amplify-react": "^1.0.5",

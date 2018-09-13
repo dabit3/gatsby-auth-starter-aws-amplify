@@ -41,7 +41,7 @@ amplify configure
 amplify init
 ```
 
-6. Add authentication to your AWS Aplify project
+6. Add authentication to your AWS Amplify project
 
 ```sh
 amplify auth add

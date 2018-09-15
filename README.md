@@ -12,7 +12,7 @@ gatsby new my-aws-project https://github.com/dabit3/gatsby-auth-starter-aws-ampl
 2. Change into the new directory
 
 ```sh
-cd gatsby-auth-starter-aws-amplify
+cd my-aws-project
 ```
 
 3. Change into the new directory

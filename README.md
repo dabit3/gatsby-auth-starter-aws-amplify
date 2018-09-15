@@ -35,8 +35,6 @@ amplify configure
 
 5. Create a new AWS Amplify Project
 
-> If you don't already have the AWS Amplify CLI installed & configured, click [here](https://aws-amplify.github.io/amplify-js/index.html) to do so.
-
 ```
 amplify init
 ```

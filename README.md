@@ -48,7 +48,7 @@ amplify init
 - Source Directory Path: __src__
 - Distribution Directory Path: __public__
 - Build Command: __npm run-script build__
-- Start Command: __npm run-script __develop
+- Start Command: __npm run-script develop__
 
 6. Add authentication to your AWS Amplify project
 

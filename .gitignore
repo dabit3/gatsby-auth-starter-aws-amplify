@@ -10,4 +10,4 @@ yarn-error.log
 # aws
 .amplifyrc
 amplify
-src/aws-exports
+src/aws-exports.js

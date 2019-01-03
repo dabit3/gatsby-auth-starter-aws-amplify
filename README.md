@@ -80,10 +80,12 @@ gatsby develop
 
 ## Hosting with the AWS Amplify Console
 
+The AWS Amplify Console provides continuous deployment and hosting for modern web apps (single page apps and static site generators). Continuous deployment allows developers to deploy updates to their web app on every code commit to their Git repository. If the build succeeds, the app is deployed and hosted on a global CDN with an *amplifyapp.com* domain. The Amplify Console offers globally available CDNs, easy custom domain setup, feature branch deployments, and password protection.
+
 1. Push your code to a Git repository of your choice.
-1. Login to the [AWS Amplify Console](https://console.aws.amazon.com/amplify/home)
+1. Login to the [AWS Amplify Console](https://console.aws.amazon.com/amplify/home) and choose **Connect app**
 1. Connect your repository and branch.
-1. In the build settings, modify the **backend** phase to reuse the *dev* environment you created using the Amplify CLI.
+1. In the build settings screen, choose **edit** and modify the **backend** phase to reuse the *dev* environment you created using the Amplify CLI.
 
 ```sh
 backend:
@@ -100,4 +102,7 @@ backend:
           dev)"
 ```
 
-1. Review your changes and then choose **Save and deploy**
+5. Give the Amplify Console permission to deploy backend resources with your frontend. This will allow the Console to detect changes to your backend on every code commit. If you do not have a service role, follow the prompts to create one.
+6. Review your changes and then choose **Save and deploy**. You app will now be available at *https://<unique-id>.amplifyapp.com*.
+
+![Amplify Console](https://github.com/swaminator/gatsby-auth-starter-aws-amplify/blob/master/src/images/amplify-console.gif)

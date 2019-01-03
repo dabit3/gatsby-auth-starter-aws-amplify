@@ -1,0 +1,34 @@
+{
+  "name": "gatsby-auth-starter-aws",
+  "description": "Gatsby authentication starter for AWS",
+  "version": "1.0.0",
+  "author": "Nader Dabit <dabit3.@gmail.com>",
+  "dependencies": {
+    "aws-amplify": "^1.0.5",
+    "aws-amplify-react": "^1.0.5",
+    "gatsby": "next",
+    "gatsby-plugin-manifest": "next",
+    "gatsby-plugin-offline": "next",
+    "gatsby-plugin-react-helmet": "next",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-helmet": "^5.2.0"
+  },
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write '**/*.js'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "prettier": "^1.13.7"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+  }
+}

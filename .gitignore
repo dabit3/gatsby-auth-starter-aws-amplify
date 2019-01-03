@@ -8,8 +8,6 @@ yarn-error.log
 .DS_Store
 
 # aws
-.amplifyrc
-amplify
 src/aws-exports.js
 
 #amplify

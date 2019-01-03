@@ -81,7 +81,7 @@ gatsby develop
 ## Hosting with the AWS Amplify Console
 
 1. Push your code to a Git repository of your choice.
-1. Login to the (AWS Amplify Console](https://console.aws.amazon.com/amplify/home)
+1. Login to the [AWS Amplify Console](https://console.aws.amazon.com/amplify/home)
 1. Connect your repository and branch.
 1. In the build settings, modify the **backend** phase to reuse the *dev* environment you created using the Amplify CLI.
 

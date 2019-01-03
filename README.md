@@ -103,8 +103,7 @@ backend:
 ```
 
 5. Give the Amplify Console permission to deploy backend resources with your frontend. This will allow the Console to detect changes to your backend on every code commit. If you do not have a service role, follow the prompts to create one.
-6. Review your changes and then choose **Save and deploy**. You app will now be available at *https://<unique-id>.amplifyapp.com*.
+6. Review your changes and then choose **Save and deploy**. You app will now be available at *https://unique-id.amplifyapp.com*.
 
-<img src="https://github.com/swaminator/gatsby-auth-starter-aws-amplify/blob/master/src/images/amplify-console.gif" width="600"/>
-<!-- ![Amplify Console](https://github.com/swaminator/gatsby-auth-starter-aws-amplify/blob/master/src/images/amplify-console.gif | width="400")
- -->
+<!-- <img src="https://github.com/swaminator/gatsby-auth-starter-aws-amplify/blob/master/src/images/amplify-console.gif" width="800"/> -->
+![Amplify Console](https://github.com/swaminator/gatsby-auth-starter-aws-amplify/blob/master/src/images/amplify-console.gif)

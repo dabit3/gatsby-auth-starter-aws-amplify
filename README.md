@@ -90,6 +90,6 @@ The AWS Amplify Console provides continuous deployment and hosting for modern we
 1. Review your changes and then choose **Save and deploy**. You app will now be available at `https://master.unique-id.amplifyapp.com`.
 
 <!-- <img src="https://github.com/swaminator/gatsby-auth-starter-aws-amplify/blob/master/src/images/amplify-console.gif" width="800"/> -->
-![Amplify Console](images/amplify-console.gif)
+![Amplify Console](src/images/amplify-console.gif)
 
 You can now continuously deploy changes to your frontend or backend and Amplify will automatically deploy those changes.

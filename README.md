@@ -6,7 +6,7 @@ This auth starter implements a basic authentication flow for signing up signing 
 - Multi-factor Authentication
 - User sign-out
 
-![Gatsby Amplify](https://github.com/swaminator/gatsby-auth-starter-aws-amplify/blob/master/src/images/gatby-auth.gif)
+![Gatsby Amplify](src/images/gatby-auth.gif)
 
 ## Getting Started
 

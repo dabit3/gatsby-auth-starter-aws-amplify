@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby Auth Starter AWS',
+    title: 'Gatsby Auth Starter AWS Amplify',
   },
   plugins: [
     'gatsby-plugin-react-helmet',

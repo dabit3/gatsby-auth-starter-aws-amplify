@@ -58,22 +58,13 @@ amplify init
 - Build Command: __npm run-script build__
 - Start Command: __npm run-script develop__
 
-6. Add authentication to your AWS Amplify project
-
-```sh
-amplify auth add
-```
-
-- Do you want to use the default authentication and security configuration? __Y__
-
-
-7. Push the updated project configuration to AWS
+6. Push the updated project configuration to AWS. It will deploy a CloudFormation template that has an Amazon Cognito resource that enables user authentication.
 
 ```sh
 amplify push
 ```
 
-8. Then you can run it by:
+7. Then you can run it by:
 ```sh
 gatsby develop
 ```

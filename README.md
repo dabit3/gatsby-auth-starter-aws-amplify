@@ -33,7 +33,7 @@ npm install
 4. Install & configure the AWS Amplify CLI. Note: we're going to be using the multi environment CLI version as it is the newest version.
 
 ```sh
-npm i -g @aws-amplify/cli@multi-env
+npm install -g @aws-amplify/cli@multienv
 
 amplify configure
 ```

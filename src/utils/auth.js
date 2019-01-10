@@ -12,7 +12,7 @@ export const isLoggedIn = () => {
 
   const user = getUser()
 
-  return !!user
+  return !!user.username
 }
 
 export const getCurrentUser = () => isBrowser && getUser()

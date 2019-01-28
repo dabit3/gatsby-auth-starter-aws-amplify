@@ -2,13 +2,14 @@ import React from "react"
 import { Link } from 'gatsby'
 import { navigate } from '@reach/router'
 import { setUser, isLoggedIn } from '../utils/auth'
-
+import Error from './Error'
 import { Auth } from 'aws-amplify'
 
 class Login extends React.Component {
   state = {
     username: ``,
-    password: ``
+    password: ``,
+    error: ``
   }
 
   handleUpdate = (event) => {
@@ -29,6 +30,7 @@ class Login extends React.Component {
       setUser(userInfo)
       navigate("/app/home")
     } catch (err) {
+      this.setState({ error: err })
       console.log('error...: ', err)
     }
   }
@@ -38,6 +40,7 @@ class Login extends React.Component {
     return (
       <div>
         <h1>Sign In</h1>
+        {this.state.error && <Error errorMessage={this.state.error}/>}
         <div style={styles.formContainer}>
          <input
             onChange={this.handleUpdate}

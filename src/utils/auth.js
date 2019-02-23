@@ -14,8 +14,7 @@ export const isLoggedIn = () => {
   if (!isBrowser) return false
 
   const user = getUser()
-
-  return !!user.username
+  if (user) return !!user.username
 }
 
 export const getCurrentUser = () => isBrowser && getUser()

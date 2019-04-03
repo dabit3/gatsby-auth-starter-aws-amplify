@@ -8,7 +8,14 @@ This auth starter implements a basic authentication flow for signing up signing 
 
 ![Gatsby Amplify](src/images/gatby-auth.gif)
 
-## Getting Started
+[![amplifybutton](https://oneclick.amplifyapp.com/button.svg)](https://console.aws.amazon.com/amplify/home#/deploy?repo=https://github.com/username/repository)
+
+<!-- <img src="https://github.com/swaminator/gatsby-auth-starter-aws-amplify/blob/master/src/images/amplify-console.gif" width="800"/> -->
+![Amplify Console](src/images/amplify-console.gif)
+
+You can now continuously deploy changes to your frontend or backend and Amplify Console will automatically deploy those changes.
+
+## Run locally
 
 1. Create the project
 
@@ -68,19 +75,3 @@ amplify push
 ```sh
 gatsby develop
 ```
-
-## Hosting with the AWS Amplify Console
-
-The AWS Amplify Console provides continuous deployment and hosting for modern web apps (single page apps and static site generators). Continuous deployment allows developers to deploy updates to their web app on every code commit to their Git repository. If the build succeeds, the app is deployed and hosted on a global CDN with an *amplifyapp.com* domain. The Amplify Console offers globally available CDNs, easy custom domain setup, feature branch deployments, and password protection.
-
-1. Push your code to a Git repository of your choice.
-1. Login to the [AWS Amplify Console](https://console.aws.amazon.com/amplify/home) and choose **Connect app**
-1. Connect your repository and branch.
-1. Accept the default build settings.
-1. Give the Amplify Console permission to deploy backend resources with your frontend. This will allow the Console to detect changes to your backend on every code commit. If you do not have a service role, follow the prompts to create one.
-1. Review your changes and then choose **Save and deploy**. You app will now be available at `https://master.unique-id.amplifyapp.com`.
-
-<!-- <img src="https://github.com/swaminator/gatsby-auth-starter-aws-amplify/blob/master/src/images/amplify-console.gif" width="800"/> -->
-![Amplify Console](src/images/amplify-console.gif)
-
-You can now continuously deploy changes to your frontend or backend and Amplify will automatically deploy those changes.

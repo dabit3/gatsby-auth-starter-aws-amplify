@@ -8,12 +8,15 @@ This auth starter implements a basic authentication flow for signing up signing 
 
 ![Gatsby Amplify](src/images/gatby-auth.gif)
 
+Click the button to deploy a fullstack app in your AWS account:
+
 [![amplifybutton](https://oneclick.amplifyapp.com/button.svg)](https://console.aws.amazon.com/amplify/home#/deploy?repo=https://github.com/username/repository)
+
+You can now continuously deploy changes to your frontend or backend and Amplify Console will automatically deploy those changes.
 
 <!-- <img src="https://github.com/swaminator/gatsby-auth-starter-aws-amplify/blob/master/src/images/amplify-console.gif" width="800"/> -->
 ![Amplify Console](src/images/amplify-console.gif)
 
-You can now continuously deploy changes to your frontend or backend and Amplify Console will automatically deploy those changes.
 
 ## Run locally
 

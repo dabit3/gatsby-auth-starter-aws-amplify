@@ -14,11 +14,13 @@ Click the button to deploy a fullstack app in your AWS account:
 
 You can now continuously deploy changes to your frontend or backend and Amplify Console will automatically deploy those changes.
 
+# Deploy to the Amplify console
+
 <!-- <img src="https://github.com/swaminator/gatsby-auth-starter-aws-amplify/blob/master/src/images/amplify-console.gif" width="800"/> -->
 ![Amplify Console](src/images/amplify-console.gif)
 
 
-## Run locally
+# Run locally
 
 1. Create the project
 

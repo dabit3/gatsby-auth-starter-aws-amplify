@@ -22,7 +22,7 @@ const IndexPage = () => (
       )
     }
     <Link to="/app/home">Home</Link><br />
-    <Link to="/app/profile">Your profile</Link>
+    {isLoggedIn() && <Link to="/app/profile">Your profile</Link>}
   </Layout>
 )
 

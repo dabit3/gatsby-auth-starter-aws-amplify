@@ -1,5 +1,8 @@
 {
-    "projectName": "my-aws-project",
+    "providers": [
+        "awscloudformation"
+    ],
+    "projectName": "gatsby-auth-starter-aws-amplify",
     "version": "3.0",
     "frontend": "javascript",
     "javascript": {
@@ -7,11 +10,8 @@
         "config": {
             "SourceDir": "src",
             "DistributionDir": "build",
-            "BuildCommand": "npm run-script build",
-            "StartCommand": "npm run-script start"
+            "BuildCommand": "npm run build",
+            "StartCommand": "npm start"
         }
-    },
-    "providers": [
-        "awscloudformation"
-    ]
+    }
 }

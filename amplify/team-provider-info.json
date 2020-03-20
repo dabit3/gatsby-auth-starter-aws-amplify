@@ -1,20 +1,15 @@
 {
-    "master": {
+    "devy": {
         "awscloudformation": {
-            "AuthRoleName": "amplify-my-aws-project-master-183634-authRole",
-            "UnauthRoleArn": "arn:aws:iam::542714424590:role/amplify-my-aws-project-master-183634-unauthRole",
-            "AuthRoleArn": "arn:aws:iam::542714424590:role/amplify-my-aws-project-master-183634-authRole",
+            "AuthRoleName": "amplify-my-aws-project-devy-170955-authRole",
+            "UnauthRoleArn": "arn:aws:iam::542714424590:role/amplify-my-aws-project-devy-170955-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::542714424590:role/amplify-my-aws-project-devy-170955-authRole",
             "Region": "eu-west-1",
-            "DeploymentBucketName": "amplify-my-aws-project-master-183634-deployment",
-            "UnauthRoleName": "amplify-my-aws-project-master-183634-unauthRole",
-            "StackName": "amplify-my-aws-project-master-183634",
-            "StackId": "arn:aws:cloudformation:eu-west-1:542714424590:stack/amplify-my-aws-project-master-183634/5a18df30-6ad1-11ea-9aed-0a1312d0cd8a",
-            "AmplifyAppId": "d3b2b9smo5t080"
-        },
-        "categories": {
-            "auth": {
-                "cognito704b3e59": {}
-            }
+            "DeploymentBucketName": "amplify-my-aws-project-devy-170955-deployment",
+            "UnauthRoleName": "amplify-my-aws-project-devy-170955-unauthRole",
+            "StackName": "amplify-my-aws-project-devy-170955",
+            "StackId": "arn:aws:cloudformation:eu-west-1:542714424590:stack/amplify-my-aws-project-devy-170955/9f54b4b0-6acd-11ea-83f0-06c001d97fde",
+            "AmplifyAppId": "d3en9erj2exq2t"
         }
     }
 }

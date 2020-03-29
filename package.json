@@ -6,6 +6,7 @@
   "dependencies": {
     "aws-amplify": "^1.0.5",
     "aws-amplify-react": "^1.0.5",
+    "d3": "^5.15.0",
     "gatsby": "^2.13.45",
     "gatsby-image": "^2.2.7",
     "gatsby-plugin-manifest": "^2.2.4",

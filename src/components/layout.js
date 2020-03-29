@@ -4,6 +4,7 @@ import Helmet from 'react-helmet'
 import { StaticQuery, graphql } from 'gatsby'
 
 import Header from './header'
+import D3Sample from './D3Sample'
 import './layout.css'
 
 const Layout = ({ children, data }) => (
@@ -37,6 +38,9 @@ const Layout = ({ children, data }) => (
             paddingTop: 0,
           }}
         >
+          <>
+            <D3Sample />
+          </>
           {children}
         </div>
       </>

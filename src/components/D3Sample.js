@@ -99,7 +99,7 @@ class D3Sample extends Component {
       <div>
         <svg width={width} height={height}>
           {this.state.data.map(d => {
-            return <Circle x={xScale(d[x])} y={yScale(d[y])} r={7} />;
+            return <Circle x={xScale(d[x])} y={yScale(d[y])} r={6} />;
           })}
         </svg>
       </div>

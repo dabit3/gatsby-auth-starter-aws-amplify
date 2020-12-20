@@ -34,7 +34,7 @@ gatsby new gatsby-amplify-auth https://github.com/dabit3/gatsby-auth-starter-aws
 cd gatsby-amplify-auth
 ```
 
-3. Change into the new directory
+3. Install dependencies
 
 ```sh
 yarn
